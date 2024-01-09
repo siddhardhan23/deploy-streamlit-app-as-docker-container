@@ -46,6 +46,10 @@ $ sudo docker build -t Image_name:tag .
 ```
 $ cd ~
 ```
+List the built Docker images
+```
+$ sudo docker images
+```
 
 7. Start a container:
 ```commandline
@@ -79,8 +83,11 @@ $ sudo docker ps
 14. Create a repository on Docker Hub.
 
 15. Log in to Docker Hub from the terminal. You can log in with your password or access token.
+```
+$ sudo docker login
+```
 
-16. Tag your local Docker image to the Docker Hub repository:
+17. Tag your local Docker image to the Docker Hub repository:
  ```
  $ sudo docker tag Image_ID username/repo-name:tag
  ```
