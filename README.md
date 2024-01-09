@@ -1,6 +1,3 @@
-# deploy-streamlit-app-as-docker-container
-Deploying a Streamlit app (Multiple Disease Prediction System) as Docker Container
-
 ## Preferred IDE: Pycharm
 
 ### Test the streamlit app on local:
@@ -99,4 +96,3 @@ $ sudo docker ps
  ```
  $ sudo docker rmi -f IMAGE_ID
  ```
-
